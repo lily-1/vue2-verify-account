@@ -26,7 +26,7 @@
         <!-- 确定按钮容器 -->
         <div @click="checkCode" v-show="showButton" style="width:0; height:0;">
             <slot name="check">
-                <button class="verify-btn">{{i18n('ok')}}</button>
+                <!-- <button class="verify-btn">{{i18n('ok')}}</button> -->
             </slot>
         </div>
     </div>
