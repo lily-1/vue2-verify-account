@@ -307,7 +307,8 @@
 
                 this.imgRand = Math.floor(Math.random() * this.imgName.length);			//随机的背景图片
                 var img = new Image();
-                img.src = this.imgUrl + this.imgName[this.imgRand];
+                // img.src = this.imgUrl + this.imgName[this.imgRand];
+                img.src = 'https://plism-1302253337.cos.ap-guangzhou.myqcloud.com/LOGO%2Fbackground.png'
                 // 加载完成开始绘制
                 var _this = this
                 img.onload = function (e) {
