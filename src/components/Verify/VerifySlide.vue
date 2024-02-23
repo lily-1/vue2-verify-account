@@ -13,7 +13,8 @@
                       bottom: mode ==='pop'?'42px':undefined}">
             <div class="verify-img-panel" :style="{width: setSize.imgWidth,
                                                    height: setSize.imgHeight,
-                                                   background: 'url(' + imgUrl + imgName[imgRand]+')',
+                                                //    background: 'url(' + imgUrl + imgName[imgRand]+')',
+                                                   background: 'url(../../../../assets/bg.png)',
                                                    'background-size' : setSize.imgWidth + ' '+ setSize.imgHeight}">
                 <div class="verify-refresh" @click="refresh" v-show="showRefresh"><i class="iconfont icon-refresh"></i>
                 </div>
