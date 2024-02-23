@@ -1,10 +1,10 @@
 {
-  "name": "vue2-verify",
+  "name": "vue2-verify-account-ckf",
   "version": "1.1.5",
   "keywords": ["vue", "verify", "verify code"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/trionfo1993/vue2-verify.git"
+    "url": "https://github.com/lily-1/vue2-verify-account-ckf.git"
   },
   "description": "Vue Verification code Project",
   "author": "mizuka <trionfo1993@hotmail.com>",
